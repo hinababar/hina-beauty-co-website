@@ -19,7 +19,13 @@ body{
     text-align:center;
     padding:80px 20px;
 
-    background: linear-gradient(135deg, #1b1b1b, #4a0e2b, #8b1e3f);
+    background:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url("hero-bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 
     color:#ffffff;
 }
